@@ -1,0 +1,101 @@
+{
+  "dashboard": {
+    "title": "Social Media Dashboard",
+    "totalFollowers": "23,004",
+    "darkMode": false,
+    "socialMediaAccounts": [
+      {
+        "platform": "Facebook",
+        "username": "@nathanf",
+        "followers": "1987",
+        "followersToday": "12",
+        "followersIncrease": true
+      },
+      {
+        "platform": "Twitter",
+        "username": "@nathanf",
+        "followers": "1044",
+        "followersToday": "99",
+        "followersIncrease": true
+      },
+      {
+        "platform": "Instagram",
+        "username": "@realnathanf",
+        "followers": "11k",
+        "followersToday": "1099",
+        "followersIncrease": true
+      },
+      {
+        "platform": "YouTube",
+        "username": "Nathan F",
+        "subscribers": "8239",
+        "subscribersToday": "144",
+        "subscribersIncrease": true
+      }
+    ],
+    "overview": "Today",
+    "cards": [
+      {
+        "type": "Page View",
+        "platform": "Facebook",
+        "count": "87",
+        "percentage": "3%",
+        "increase": true
+      },
+      {
+        "type": "Likes",
+        "platform": "Facebook",
+        "count": "52",
+        "percentage": "2%",
+        "increase": true
+      },
+      {
+        "type": "Likes",
+        "platform": "Instagram",
+        "count": "5462",
+        "percentage": "2257%",
+        "increase": true
+      },
+      {
+        "type": "Profile Views",
+        "platform": "Instagram",
+        "count": "52K",
+        "percentage": "1375%",
+        "increase": true
+      },
+      {
+        "type": "Retweets",
+        "platform": "Twitter",
+        "count": "117",
+        "percentage": "303%",
+        "increase": true
+      },
+      {
+        "type": "Likes",
+        "platform": "Twitter",
+        "count": "507",
+        "percentage": "553%",
+        "increase": true
+      },
+      {
+        "type": "Likes",
+        "platform": "YouTube",
+        "count": "107",
+        "percentage": "19%",
+        "increase": true
+      },
+      {
+        "type": "Total Views",
+        "platform": "YouTube",
+        "count": "1407",
+        "percentage": "12%",
+        "increase": true
+      }
+    ]
+  },
+  "attribution": {
+    "challengeBy": "Frontend Mentor",
+    "challengeLink": "https://www.frontendmentor.io?ref=challenge",
+    "codedBy": "Your Name Here"
+  }
+}

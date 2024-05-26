@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter";
+  font-weight: 400;
+  background-color: hsl(232, 19%, 15%);
+}
+
+main {
+  padding: 3.5rem;
+  font-family: "inter";
+}
+
+.top-sec {
+  display: flex;
+  padding-left: 3.3rem;
+  justify-content: space-between;
+  font-family: "inter";
+}
+
+.top-sec .title > h1 {
+  font-weight: 700;
+  color: white;
+}
+.top-sec .title > span {
+  color: hsl(230, 3%, 37%);
+  font-weight: 700;
+}
+
+.toggle_btn {
+  margin-right: 6.5rem;
+  font-weight: 700;
+}
+.toggle_btn > label {
+  color: hsl(240, 1%, 49%);
+}
+
+.upper-container {
+  padding: 1.2rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex: 1rem;
+  border-top: 2rem;
+  border-color: blue;
+}
+.social-media {
+  background-color: hsl(228, 28%, 20%);
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  width: 250px;
+  height: 200px;
+  padding-top: 1rem;
+
+  /* margin-right: 3.3rem; */
+}
+
+.upper-container .social-media:nth-child(1) {
+  border-top: 4px solid rgb(47, 47, 144);
+}
+.upper-container .social-media:nth-child(2) {
+  border-top: 4px solid rgb(70, 70, 198);
+}
+
+.upper-container .social-media:nth-child(3) {
+  border-top: 4px solid hsl(329, 70%, 58%);
+}
+
+.upper-container .social-media:nth-child(4) {
+  border-top: 4px solid red;
+}
+
+.social-media .below .upp1 {
+  color: red;
+}
+
+.up {
+  display: flex;
+  align-items: center;
+  padding-left: 3.7rem;
+  gap: 1rem;
+}
+
+.up .username {
+  color: rgb(148, 143, 143);
+  font-weight: 700;
+}
+.mid {
+  padding-left: 3.7rem;
+  padding-top: 1rem;
+}
+
+.mid > h1 {
+  color: white;
+  font-size: 3rem;
+  font-style: bold;
+}
+
+.mid .foll {
+  letter-spacing: 3px;
+  align-content: center;
+  padding-bottom: 2rem;
+  color: hsl(240, 2%, 35%);
+}
+
+.social-media .below {
+  margin-left: 30px;
+  font-size: small;
+  padding-bottom: 2.5rem;
+}
+
+.below > svg {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: red;
+}
+
+.below .upp {
+  color: green;
+  font-weight: 500;
+}
+
+.middle {
+  letter-spacing: normal;
+  color: white;
+  font-weight: 700;
+  margin-left: 3.3rem;
+}
+
+.lower-container {
+  display: grid;
+  margin-bottom: 20rem;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  column-gap: 2px;
+  gap: 30px;
+  padding-bottom: 10rem;
+}
+
+.cards {
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  width: 250px;
+  height: 150px;
+  background-color: hsl(228, 28%, 20%);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.top .view {
+  color: hsl(230, 3%, 38%);
+  font-weight: 600;
+}
+
+.low {
+  padding: 0.7rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.low .likes {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.low .svg {
+  margin-bottom: 100px;
+  padding: 2px;
+  color: green;
+}
+
+body {
+  transition: background-color 0.5s, color 0.5s;
+  background-color: hsl(232, 19%, 15%);
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #f6f5f5;
+  color: #ffffff;
+}
+
+body.dark-mode .social-media {
+  background-color: #e3dddd;
+  color: #100e0e;
+}
+body.dark-mode .lower-container .cards {
+  background-color: #e3dddd;
+  color: #100e0e;
+}
+
+body .darkmode h1 {
+  color: black;
+}
+body:not(.darkmode) h1 {
+  color: white;
+}
+
+.toggle_btn {
+  display: flex;
+  align-items: center;
+}
+
+.toggle_btn label {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.toggle_btn input[type="checkbox"] {
+  width: 40px;
+  height: 20px;
+  appearance: none;
+  background-color: #ccc;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.toggle_btn input[type="checkbox"]:checked {
+  background-color: #1a211a;
+}
+
+.toggle_btn input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.3s;
+}
+
+.toggle_btn input[type="checkbox"]:checked::before {
+  transform: translateX(20px);
+}
